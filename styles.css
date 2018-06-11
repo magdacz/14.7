@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans&subset=latin-ext');
+</style>
+
+  * {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+	border: 2px solid #494949;
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+}
+
+.contactForm  {
+	display: flex;
+	flex-direction: column;
+	width: 360px;
+	border: 1.5px solid #34515e;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.contactForm input {
+	height: 25px;
+	margin-bottom: 7px;
+	border: none;
+	border-bottom: 1px solid #607d8b;
+}
+
+.contactForm button {
+	width: 120px;
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+	background: #29b6f6;
+	border: none;
+}
+
+.contactsList {
+	padding-left: 0;
+}
+
+.contactItem {
+	margin-top: 20px;
+	width: 360px;
+	padding: 10px;
+	background: #efefef;
+}
+
+.contactItem a {
+	text-decoration: none;
+}
